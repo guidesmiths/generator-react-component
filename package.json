@@ -1,0 +1,38 @@
+{
+  "name": "generator-react-component",
+  "version": "0.0.0",
+  "description": "A generator for a react component",
+  "homepage": "https://github.com/guidesmiths/react-component",
+  "author": {
+    "name": "Guidesmiths Ltd",
+    "url": ""
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "react",
+    "component",
+    "scaffold",
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "yeoman-generator": "^0.23.4",
+    "yosay": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-imperative-es6": "^1.0.0"
+  },
+  "eslintConfig": {
+    "extends": "imperative-es6",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "GuideSmiths Ltd/generator-react-component",
+  "scripts": {},
+  "license": "ISC"
+}
