@@ -1,5 +1,5 @@
 {
-  "name": "generator-react-gs-component",
+  "name": "@guidesmiths/generator-react-component",
   "version": "0.1.0",
   "description": "A generator for a react component",
   "homepage": "https://github.com/guidesmiths/react-component",
@@ -33,7 +33,7 @@
       "mocha": true
     }
   },
-  "repository": "GuideSmiths Ltd/generator-react-gs-component",
+  "repository": "GuideSmiths Ltd/generator-react-component",
   "scripts": {
     "publish-patch": "node ./bin/publish patch && npm publish",
     "publish-minor": "node ./bin/publish minor && npm publish",
