@@ -1,6 +1,6 @@
 {
-  "name": "generator-react-component",
-  "version": "0.0.0",
+  "name": "@guidesmiths/generator-react-component",
+  "version": "0.1.0",
   "description": "A generator for a react component",
   "homepage": "https://github.com/guidesmiths/react-component",
   "author": {
@@ -26,7 +26,8 @@
   },
   "devDependencies": {
     "eslint": "^3.1.1",
-    "eslint-config-imperative-es6": "^1.0.0"
+    "eslint-config-imperative-es6": "^1.0.0",
+    "semver": "^5.5.0"
   },
   "eslintConfig": {
     "extends": "imperative-es6",
@@ -35,6 +36,10 @@
     }
   },
   "repository": "GuideSmiths Ltd/generator-react-component",
-  "scripts": {},
+  "scripts": {
+    "publish-patch": "node ./bin/publish patch && npm publish",
+    "publish-minor": "node ./bin/publish minor && npm publish",
+    "publish-major": "node ./bin/publish major && npm publish"
+  },
   "license": "ISC"
 }

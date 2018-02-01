@@ -7,8 +7,8 @@
 First, install [Yeoman](http://yeoman.io) and generator-react-component using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
-npm install -g yo
-npm install -g generator-react-component
+npm i -g yo
+npm i -g @guidesmiths/generator-react-component
 ```
 
 Then generate your new project:
