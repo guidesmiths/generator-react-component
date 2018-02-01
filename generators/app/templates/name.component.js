@@ -5,19 +5,19 @@ import "./<%= name %>.css";
 
 export default class <%= nameUp %> extends React.Component {
 
-  constructor(props){
-    super(props);
-    this.state = {};
-  }
+	constructor(props){
+		super(props);
+		this.state = {};
+	}
 
-  render(){
-    return(
-      <div><%= nameUp %></div>
-    );
-  }
+	render(){
+		return(
+			<div><%= nameUp %></div>
+		);
+	}
 
 }
 
 <%= nameUp %>.propTypes = {
-  name: PropTypes.string
+	name: PropTypes.string
 };

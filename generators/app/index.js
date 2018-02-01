@@ -29,7 +29,9 @@ module.exports = yeoman.Base.extend({
     this.props.nameUp = this._capitalizeFirstLetter(this._toCamelCase(this.props.name));
     this.fs.copyTpl(this.templatePath('name.component.js'), this.destinationPath(this.props.name+'.component.js'), this.props);
     this.fs.copyTpl(this.templatePath('name.container.js'), this.destinationPath(this.props.name+'.container.js'), this.props);
+    this.fs.copyTpl(this.templatePath('name.stories.js'), this.destinationPath(this.props.name+'.stories.js'), this.props);
     this.fs.copyTpl(this.templatePath('name.css'), this.destinationPath(this.props.name+'.css'), this.props);
+    this.fs.copyTpl(this.templatePath('mock-data.json'), this.destinationPath('mock-data.json'), this.props);
   },
   _toCamelCase: function(str) {
     return str
